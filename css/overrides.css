@@ -1,0 +1,94 @@
+/* Place styles here to override App Builder's */
+
+#MjbApp_Live .ui-button {
+    min-width: 70px;
+}
+
+#MjbApp_LiveWidget_update .controls .loading {
+    background: none transparent;
+    margin: 50px auto 0px auto;
+    padding: 0;
+}
+
+#MjbApp_LiveWidget_update .controls .loading h3 {
+    background: url('../images/updating.gif') transparent no-repeat scroll left center;
+    -webkit-background-size: 39px 39px;
+    -moz-background-size: 39px 39px;
+    background-size: 39px 39px;
+    padding: 9px 0 9px 49px;
+    min-height: 21px;
+    height: 21px;
+    width: auto;
+    display: inline-block;
+}
+
+#MjbAppID {
+    float: left;
+}
+
+#MjbAppID .loader h4 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #f0f0f0;
+}
+
+#MjbAppID h1, #MjbAppID h2, #MjbAppID h3, #MjbAppID h4, #MjbAppID h5, #MjbAppID label,
+.MjbApp_LiveDialog h1, .MjbApp_LiveDialog h2, .MjbApp_LiveDialog h3, .MjbApp_LiveDialog h4, .MjbApp_LiveDialog h5, .MjbApp_LiveDialog label {
+    color: inherit;
+    text-align: inherit;
+}
+
+.MjbApp_LiveDialog textarea {
+    height: auto;
+}
+
+#MjbAppID table, #MjbAppID tbody,  #MjbAppID tfoot, #MjbAppID thead, #MjbAppID tr, #MjbAppID th, #MjbAppID td,
+.MjbApp_LiveDialog table, .MjbApp_LiveDialog tbody, .MjbApp_LiveDialog tfoot, .MjbApp_LiveDialog thead, .MjbApp_LiveDialog tr, .MjbApp_LiveDialog th, .MjbApp_LiveDialog td {
+    vertical-align: inherit;
+}
+
+#MjbAppID table, .MjbApp_LiveDialog table {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+}
+
+#MjbAppID table tr,
+.MjbApp_LiveDialog table tr {
+    background-color: inherit;
+}
+
+#MjbAppID table tr td,
+.MjbApp_LiveDialog table tr td {
+    padding: inherit;
+    margin: inherit;
+}
+
+#MjbApp_LiveControls .ui-widget.pages {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#MjbApp_LiveControls .ui-widget.pages .fieldset .list button {
+    margin: 8px 4px 0 0;
+    padding: 2px;
+}
+
+#MjbAppID .ui-tabs.ui-widget-content,
+.MjbApp_LiveDialog .ui-tabs.ui-widget-content {
+    border: 1px solid #aaaaaa;
+}
+
+.MjbApp_LiveDialog.ui-state-error {
+    border-color: #444444;
+}
+
+#MjbApp_Working {
+    background-image: url('../images/working.gif');
+    margin-top: 30px;
+}
+
+#MjbApp_Working span {
+    display: none;
+}

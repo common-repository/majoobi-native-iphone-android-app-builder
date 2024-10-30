@@ -1,0 +1,35 @@
+#MjbAppID-wrap {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+#MjbAppID {
+    margin: .5em 0;
+}
+
+#MjbAppID .loader {
+    display: block;
+    width: 100%;
+    height: 250px;
+    background: url('loading.gif') transparent no-repeat scroll top center;
+    text-align: center;
+    margin-top: 150px;
+    padding-top: 50px;
+}
+
+#MjbAppID .loader h4 {
+    margin: 0;
+    font-size: medium;
+}
+
+#MjbAppID .loader h5 {
+    margin: 0;
+    font-size: small;
+}
+
+#MjbAppID .loader h5.wait {
+    margin-top: 1em;
+    opacity: .6;
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=60)';
+    filter: alpha(opacity=60);
+}
